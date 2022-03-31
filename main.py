@@ -87,10 +87,8 @@ while(True):
     if (word_to_find not in hash_map):
         print(f"Word `{word_to_find}`not found in {PREPROCESSED_FILE}")
         continue
-    used = set()
     for word in hash_map[word_to_find]:
-        if (word not in used):
-            print(word)
+        print(word)
 
 
 
