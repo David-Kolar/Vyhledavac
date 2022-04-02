@@ -88,7 +88,7 @@ while(True):
         print(f"Word `{word_to_find}`not found in {PREPROCESSED_FILE}")
         continue
     for word in hash_map[word_to_find]:
-        print(word)
+        print("https://ksp.mff.cuni.cz"+word)
 
 
 
